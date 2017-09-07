@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Question5", "Question5\Ques
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RandomNumber", "RandomNumber", "{B9C6EA8C-6B89-4DEA-8B46-71AFF294EA74}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StringReversal", "StringReversal", "{821BF240-880B-403A-BA1A-7C599295BB83}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StringReversalQuestion", "StringReversalQuestion", "{821BF240-880B-403A-BA1A-7C599295BB83}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PalindromeQuestion", "PalindromeQuestion", "{A15F6B12-271D-4375-8608-4437AE82536A}"
 EndProject
@@ -18,6 +18,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome", "PalindromeQuestion\Palindrome\Palindrome.csproj", "{0FCEDF89-06EE-4642-8EAE-CA96F4A285A7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome.Tests", "PalindromeQuestion\Palindrome.Tests\Palindrome.Tests.csproj", "{ABE2E137-3145-48AB-8F7E-1BE94B7C65A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringReversal", "StringReversalQuestion\StringReversal\StringReversal.csproj", "{23F7C309-440E-4BFD-B6CC-3A9B54C445E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringReversal.Tests", "StringReversalQuestion\StringReversal.Tests\StringReversal.Tests.csproj", "{412B688A-36C1-410D-9C72-A3521001AA1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +45,14 @@ Global
 		{ABE2E137-3145-48AB-8F7E-1BE94B7C65A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABE2E137-3145-48AB-8F7E-1BE94B7C65A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABE2E137-3145-48AB-8F7E-1BE94B7C65A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23F7C309-440E-4BFD-B6CC-3A9B54C445E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23F7C309-440E-4BFD-B6CC-3A9B54C445E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23F7C309-440E-4BFD-B6CC-3A9B54C445E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23F7C309-440E-4BFD-B6CC-3A9B54C445E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{412B688A-36C1-410D-9C72-A3521001AA1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{412B688A-36C1-410D-9C72-A3521001AA1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{412B688A-36C1-410D-9C72-A3521001AA1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{412B688A-36C1-410D-9C72-A3521001AA1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +60,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{0FCEDF89-06EE-4642-8EAE-CA96F4A285A7} = {A15F6B12-271D-4375-8608-4437AE82536A}
 		{ABE2E137-3145-48AB-8F7E-1BE94B7C65A6} = {A15F6B12-271D-4375-8608-4437AE82536A}
+		{23F7C309-440E-4BFD-B6CC-3A9B54C445E7} = {821BF240-880B-403A-BA1A-7C599295BB83}
+		{412B688A-36C1-410D-9C72-A3521001AA1F} = {821BF240-880B-403A-BA1A-7C599295BB83}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53689279-A078-4F95-BECB-276C3384329A}
